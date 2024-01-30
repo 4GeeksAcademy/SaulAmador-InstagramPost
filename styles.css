@@ -1,0 +1,91 @@
+body {
+    background: hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+}
+.post {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-right {
+    display: flex;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.icons-l, .icons-r{
+    width: 50%;
+    display: flex;
+    margin: 0 10px;
+}
+.icons-l{
+    justify-content: flex-start;
+}
+.icons-r{
+    justify-content: flex-end;
+}
+.post-body {
+    padding: 10px;
+}
+.fa-regular{
+    font-size: 30px;
+    margin: 0 5px;
+}
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.icons-container i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.icons-container .fa-bookmark {
+    margin-right: 5px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-brands, .fab {
+    padding: 9px;
+    padding-right: 10px;
+    font-size: xxx-large;
+}
+h1, p {
+    margin: 0;
+}
+.fa-solid, .fas {
+    font-size: 35px;
+}
